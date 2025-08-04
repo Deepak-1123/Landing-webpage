@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Screen Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>DD Brands</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="section full-screen">
+    <div class="content">
+      <h2>Welcome to My Landing Page</h2>
+      <p>Build your presence with simplicity and style.</p>
+      <button onclick="scrollToContact()">Get Started</button>
+    </div>
+  </section>
+
+  <section id="features" class="section full-screen">
+    <div class="content">
+      <h3>Features</h3>
+      <div class="features-container">
+        <div class="box">Fast</div>
+        <div class="box">Responsive</div>
+        <div class="box">Modern UI</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section full-screen">
+    <div class="content">
+      <h3>Contact Us</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MyBrand. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
